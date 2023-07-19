@@ -11,10 +11,6 @@ function Footer() {
     {
       name: "fab fa-linkedin",
       link: "https://www.linkedin.com/in/francisco-casillas-mx"
-    },
-    {
-      name: "fab fa-stack-overflow",
-      link: "https://stackoverflow.com/"
     }
   ]
 
