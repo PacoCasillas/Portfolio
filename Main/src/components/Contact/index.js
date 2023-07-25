@@ -14,11 +14,14 @@ function Contact() {
   const [errorMessage, setErrorMessage] = useState('');
   const { name, email, message } = formState;
 
+  const [successMessage, setSuccessMessage] = useState('');
+
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!errorMessage) {
       console.log('Submit Form', formState);
       sendEmail(e, formRef.current);
+      setSuccessMessage('Your message was successfully submitted!');
     }
   };
 
@@ -54,7 +57,6 @@ function Contact() {
       });
   };
 
-  const form = document.getElementById('contact-form');
   const formRef = useRef(null);
 
   return (
@@ -90,6 +92,11 @@ function Contact() {
         {errorMessage && (
           <div>
             <p className="error-text">{errorMessage}</p>
+          </div>
+        )}
+        {successMessage && (
+          <div>
+            <p className="success-text">{successMessage}</p>
           </div>
         )}
         <button type="submit">Submit</button>
