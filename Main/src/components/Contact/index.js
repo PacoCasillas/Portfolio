@@ -1,4 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
+
+import emailjs from '@emailjs/browser';
 
 import { validateEmail } from '../../utils/helpers';
 
@@ -16,6 +18,7 @@ function Contact() {
     e.preventDefault();
     if (!errorMessage) {
       console.log('Submit Form', formState);
+      sendEmail(e, formRef.current);
     }
   };
 
@@ -40,9 +43,23 @@ function Contact() {
     }
   };
 
+  const sendEmail = (e, formElement) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_ojezzgc', 'template_fxnquv9', formElement, 'JZjS-v3UViDn3DpYX')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
+  const form = document.getElementById('contact-form');
+  const formRef = useRef(null);
+
   return (
     <section>
-      <form id="contact-form" onSubmit={handleSubmit}>
+      <form id="contact-form" ref={formRef} onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name:</label>
           <input
