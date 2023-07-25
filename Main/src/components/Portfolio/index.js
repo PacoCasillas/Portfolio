@@ -42,7 +42,7 @@ function Portfolio() {
       repo: "https://github.com/PacoCasillas/password-generator"
     },
     {
-      name: 'gist',
+      name: 'regex-gist',
       description: 'Computer Science',
       link: "https://gist.github.com/PacoCasillas/856dfd294e6871090b525e3310ec3392",
     },
