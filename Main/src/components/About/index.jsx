@@ -18,19 +18,18 @@ function About() {
           />        
         </div>
         <p>
-        Hi there!
+        Hello!
         </p>
         <p>
-        I'm a junior full-stack developer with a passion for designing and developing applications. I love the challenge of creating something that people can use and enjoy. I'm eager to kick-start my career in the industry and I’m excited to be part of the online world that is constantly changing and evolving.
-        </p>
+        I'm Francisco Olivares Casillas, a full-stack web developer with a passion for building applications that make people's lives easier. I love the thrill of building something that people can use. Joining the online world, which is ever changing, is an exciting opportunity for me.       </p>
         <p>
-        I have a strong foundation in back-end development, with experience in JavaScript, Node.js, SQL, noSQL, and Express. I've also used HTML, CSS, and React to build several successful front-end applications. I enjoy learning new technologies and frameworks, and I'm always up for a challenge.
-        </p>
+        In my toolbox, I have expertise in JavaScript, Node.js, SQL, noSQL, and Express for back-end development. On the front-end, I've successfully used HTML, CSS, and React to craft user-friendly applications.         </p>
         <p>
-        In addition to my technical skills, I’m also highly motivated and results-oriented. I’m a quick learner and I’m always willing to go the extra mile. I’m also a team player who likes to ask questions and I’m always willing to help others. I have to say being part of a team that I can learn from and develop with is one of the things that I look forward to the most. 
-        </p>
+        Besides being into tech, I'm highly motivated and results-oriented. I love learning, adapting quickly, and going the extra mile to deliver top-notch results. Coming from a sports background being a team player is my thing—I value learning from others and helping my teammates grow.        </p>
         <p>
-        Outside of coding, I'm passionate about my family, gardening, and DIY projects. My wife and I recently started having kids and I’m really enjoying being a dad. In the garden, I grow a variety of fruits, vegetables, and flowers. As a homeowner, there are always new projects to take on and I enjoy the process of learning new skills.
+        Beyond coding, I find joy in my family, gardening, and DIY projects. Embracing parenthood has been a beautiful journey, and I adore spending time with my daughter. In my garden, I cultivate a variety of fruits, veggies, and flowers. As a homeowner, I enjoy taking on new projects and learning new skills along the way.        </p>
+        <p>
+        I'm stoked to kick-start my career and collaborate with a dynamic team that encourages growth and creativity. Let's build amazing things together!
         </p>
       </div>
     </section>

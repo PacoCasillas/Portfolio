@@ -6,7 +6,7 @@ function Header(props) {
   return (
     <header className='header'>
       <h1 className='my-name'>Fransico Olivares Casillas</h1>
-      <img src={coverImage} alt="wooden background"></img>
+      {/* <img src={coverImage} alt="wooden background"></img> */}
       {props.children}
     </header>
   );

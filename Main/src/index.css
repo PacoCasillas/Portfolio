@@ -47,8 +47,8 @@ h6 {
 }
 
 .my-name {
-  font-size: 2rem;
-  font-size: revert;
+  font-size: 5rem;
+  margin: 1rem;
 }
 
 h1 {
@@ -95,7 +95,8 @@ a:hover {
 }
 
 header {
-  background: var(--dark);
+  background: #516039;
+  height: auto;
 }
 
 header a {
@@ -363,7 +364,7 @@ textarea {
 }
 
 .navActive {
-  color: var(--secondary);
+  color: #FFD500;
   cursor: default;
   text-shadow: 3px 3px 15px rgba(255,255,255, .5);
 }
@@ -378,6 +379,9 @@ textarea {
   header h1 {
     display: block;
     height: 30px;
+  }
+  .my-name {
+    font-size: 2.5rem;
   }
 }
 @media only screen and (max-width: 900px) {
@@ -395,5 +399,8 @@ textarea {
     width: 100%;
     text-align: center;
     font-size: 2.3rem;
+  }
+  .my-name {
+    font-size: 2.2rem;
   }
 }
