@@ -11,7 +11,7 @@ function About() {
             alt="Faceshot of Francisco"
             style={{ 
               borderRadius: "50%",
-              width: "20%",
+              width: "30%",
               height: "auto",
             }}
 
