@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.5bc64608.css",
+    "main.js": "/Portfolio/static/js/main.8fb84d7a.js",
+    "static/media/cover-image.jpg": "/Portfolio/static/media/cover-image.3f4b8a47f17655a4ac17.jpg",
+    "static/media/eventopia.jpg": "/Portfolio/static/media/eventopia.4faaf163dcecbeb28927.jpg",
+    "static/media/movie-dashboard.jpg": "/Portfolio/static/media/movie-dashboard.cd95b62a9dae2faec602.jpg",
+    "static/media/shoppingHub.jpg": "/Portfolio/static/media/shoppingHub.23c185a93f3e974b45d5.jpg",
+    "static/media/day-planner.jpg": "/Portfolio/static/media/day-planner.1f4615db92eac15411ce.jpg",
+    "static/media/regex-gist.jpg": "/Portfolio/static/media/regex-gist.dce6f5c3763239246159.jpg",
+    "static/media/text-editor.jpg": "/Portfolio/static/media/text-editor.7807700932520923fc79.jpg",
+    "static/media/face-pic.jpg": "/Portfolio/static/media/face-pic.ebc0eeffcd513183c5f3.jpg",
+    "static/media/password-generator.jpg": "/Portfolio/static/media/password-generator.7b0bc41557c116a4d336.jpg",
+    "static/media/note-taker.jpg": "/Portfolio/static/media/note-taker.e520bc34d21aee53b2b2.jpg",
+    "index.html": "/Portfolio/index.html",
+    "main.5bc64608.css.map": "/Portfolio/static/css/main.5bc64608.css.map",
+    "main.8fb84d7a.js.map": "/Portfolio/static/js/main.8fb84d7a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5bc64608.css",
+    "static/js/main.8fb84d7a.js"
+  ]
+}
