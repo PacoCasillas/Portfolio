@@ -12,6 +12,12 @@ function Portfolio() {
       repo: "https://github.com/PacoCasillas/Eventopia"
     },
     {
+      name: 'shoppingHub',
+      description: 'MERN Stack',
+      link: "https://peaceful-coast-10837-e5ffde853d9b.herokuapp.com/",
+      repo: "https://github.com/Saloni0412/ShoppingHub"
+    },
+    {
       name: 'movie-dashboard',
       description: 'Front End',
       link: "https://timebytes.github.io/Movie-Dashboard/",
